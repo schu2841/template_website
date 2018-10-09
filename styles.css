@@ -1,12 +1,145 @@
 body {
-  font-family: "Helvetica", sans-serif;
+    background-color: #DEE5E5;
 }
 
-h2 {
-  color: #7A0019;
+
+.nav {
+    font-family: sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    color:#fff;
+
+
 }
 
-#contact {
-  background-color: #FFDE7A;
-  padding: 2%;
+#navbar {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    background-image: url('home-banner.png');
+    background-position: top;
+    height: 468px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 20px;
+}
+
+#address {
+    float: left;
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left:15px;
+    
+}
+
+#logo {
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 110px;
+}
+
+#content {
+    width: 900px;
+    margin: auto;
+   
+}
+
+
+#hours {
+      display: inline-block;
+      float:right;
+    
+}
+
+h.hours {
+      font-family: sans-serif;
+      font-weight: 300;
+      
+}
+
+p.hours {
+      font-family: sans-serif;
+      font-weight: 100;
+}
+
+p.content {
+ 
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 20px 30px 50px 30px;
+}
+
+p.footeraddress {
+    font-size: smaller;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: sans-serif;
+    width: 450px;
+    text-align: left;
+    padding-bottom:0px;
+    padding-top:0px;
+
+  
+}
+
+#footer {
+    width: 900px;
+    margin: auto;
+    height: 150px;
+    background-color: #082D0F;
+    margin-top: 20px;
+    color: #9DC5BB;
+}
+
+
+
+.fa-instagram {
+  background: #5E807F;
+  color: white;
+}
+
+.fa-facebook {
+  background: #5E807F;
+  color: white;
+}
+
+.fa-twitter {
+  background: #5E807F;
+  color: white;
+}
+
+#socialmedia {
+    display: inline-block;
+    float: right;
+}
+
+#copyright {
+    width: 900px;
+    text-align: center;
+    font-size: smaller;
+    margin: auto;
+    padding-bottom: 5px;
+    background-color: #082D0F;
+    color: #9DC5BB;
+    
+    
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
